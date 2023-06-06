@@ -1,6 +1,8 @@
 {
   "ids": {
-    "Todo": 8
+    "Todo": 8,
+    "User": 8,
+    "UserCredentials": 7
   },
   "models": {
     "Todo": {
@@ -10,6 +12,22 @@
       "4": "{\"id\":4,\"title\":\"string\",\"desc\":\"string\",\"isComplete\":true}",
       "6": "{\"title\":\"string\",\"desc\":\"string\",\"isComplete\":true,\"id\":6}",
       "7": "{\"title\":\"Thach đang cố tốt hơn mỗi ngày\",\"desc\":\"Đã code đc platform loopback 4\",\"isComplete\":true,\"id\":7}"
+    },
+    "User": {
+      "1": "{\"id\":\"1\",\"realm\":\"string\",\"username\":\"hoducthach@gmail.com\",\"email\":\"123\",\"emailVerified\":true,\"verificationToken\":\"string\",\"additionalProp1\":{}}",
+      "2": "{\"id\":\"2\",\"realm\":\"string\",\"username\":\"thach@gmail.com\",\"email\":\"123\",\"emailVerified\":true,\"verificationToken\":\"string\",\"additionalProp1\":{}}",
+      "3": "{\"id\":\"3\",\"realm\":\"string\",\"username\":\"thach@gmail.com\",\"email\":\"123456789\",\"emailVerified\":true,\"verificationToken\":\"string\",\"additionalProp1\":{}}",
+      "string": "{\"id\":\"string\",\"realm\":\"string\",\"username\":\"string\",\"email\":\"string\",\"emailVerified\":true,\"verificationToken\":\"string\",\"additionalProp1\":{}}",
+      "f1bf576e-1bef-4759-9b16-15d561b95842": "{\"id\":\"f1bf576e-1bef-4759-9b16-15d561b95842\",\"email\":\"testuser2@abc.com\"}",
+      "Ho Duc Thach": "{\"id\":\"Ho Duc Thach\",\"email\":\"testuser3@abc.com\"}"
+    },
+    "UserCredentials": {
+      "4d0a5e16-8047-4d39-aa48-4051d27d3863": "{\"id\":\"4d0a5e16-8047-4d39-aa48-4051d27d3863\",\"password\":\"$2a$10$m6U1M6IyoWMpA3GXWmn0veEHrhuHgHimR0MH1rj7eJJM8U6f/9diC\",\"userId\":\"string\"}",
+      "010b85cb-9c6a-4851-b8b4-ecad36108002": "{\"id\":\"010b85cb-9c6a-4851-b8b4-ecad36108002\",\"password\":\"$2a$10$R.C93GmpW/HUwryXs4kLbuA4lrfeY9O0sdGRIEcWavlBRpCVhGkmO\",\"userId\":\"1\"}",
+      "a1f6632d-5cf2-4644-a23f-c8046705b5b5": "{\"id\":\"a1f6632d-5cf2-4644-a23f-c8046705b5b5\",\"password\":\"$2a$10$CT0GU1DI/gf0W2Ucp5FTmeDnOQc7zJJ7lBPGSRiJfb2GYCeBqDB8i\",\"userId\":\"2\"}",
+      "c0e2b051-0a58-411f-9d80-4ca23725e7a5": "{\"id\":\"c0e2b051-0a58-411f-9d80-4ca23725e7a5\",\"password\":\"$2a$10$Bc7kiQQgMKjGf5KsTSww0eh3DJS3tYKJyVMMSvmEPkjEZaNHcmz/u\",\"userId\":\"3\"}",
+      "20e09632-c94f-4192-bf3d-8d55518b991f": "{\"id\":\"20e09632-c94f-4192-bf3d-8d55518b991f\",\"password\":\"$2a$10$ByTnzNkCO6ZgI./jUZkZo.I6mIGqE.LXEecnnRMJILlkGp1Xltxgy\",\"userId\":\"f1bf576e-1bef-4759-9b16-15d561b95842\"}",
+      "ab57462a-51ba-4033-81ad-9077ed80871e": "{\"id\":\"ab57462a-51ba-4033-81ad-9077ed80871e\",\"password\":\"$2a$10$wqD86igU06PqDd9tHVfmBuNo26PP7ZkfIUs523Jczj9QHSPBjIkAm\",\"userId\":\"Ho Duc Thach\"}"
     }
   }
 }
